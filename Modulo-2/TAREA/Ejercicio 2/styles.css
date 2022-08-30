@@ -1,0 +1,47 @@
+body {
+    background-color:#0c181c ;
+}
+
+.primerDiv h1 {
+    font-size: 120px;
+    font-family: 'MonteCarlo', cursive;
+    font-weight: 900;
+    color: #ff7dd8; 
+}
+
+.nombre {
+    color: #ff7dd8;
+}
+
+.caracteristicas #programadora {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7dd8;
+    font-weight: 700;
+}
+
+.caracteristicas #matematica {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7dd8;
+    font-weight: 700;
+}
+  
+.caracteristicas #guitarrista {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7dd8;
+    font-weight: 700;
+}
+
+.otros-colors p {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7dd8;
+    font-weight: 700;
+}
+
+
+
+
+

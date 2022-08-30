@@ -1,0 +1,26 @@
+body h1{
+    font-family: 'Cinzel', serif;
+}
+
+body h2{
+    font-family: 'Alegreya', serif;
+}
+
+h3 {
+    font-family: 'Nanum Myeongjo', serif; 
+}
+
+#fecha {
+    font-size: 170%;
+    background-color: grey;
+}
+
+#monto-ingreso {
+    font-size: 190%;
+    color: green;
+}
+
+#monto-egreso {
+    font-size: 190%;
+    color:red ;
+}

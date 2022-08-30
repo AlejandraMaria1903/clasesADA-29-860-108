@@ -1,0 +1,32 @@
+.primerDiv h1 {
+    font-size: 120px;
+    font-family: 'MonteCarlo', cursive;
+    font-weight: 900;
+    color: black; 
+}
+
+.nombre {
+    color: rebeccapurple;
+}
+
+.caracteristicas #programadora {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: cyan;
+    font-weight: 700;
+}
+
+.caracteristicas #matematica {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: chocolate;
+    font-weight: 700;
+}
+  
+.caracteristicas #guitarrista {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: brown;
+    font-weight: 700;
+}
+

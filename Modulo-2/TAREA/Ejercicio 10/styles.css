@@ -1,0 +1,36 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 550%;
+}
+
+h2 {
+    font-size: 420%;
+}
+
+h3 {
+    font-size: 300%;
+}
+
+.action-hecha {
+    font-size: 40px;
+    color: green;
+}
+
+.action-pendiente {
+    font-size: 40px;
+    color: blue;
+}
+.action-cancelada {
+    font-size: 40px;
+    color: red;
+}
+
+.action-haciendo {
+    font-size: 40px;
+    color: orange;
+}
+
+

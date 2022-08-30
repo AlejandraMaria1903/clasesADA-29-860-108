@@ -1,0 +1,23 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    font-size: 200%;
+}
+
+.title a{
+    color: cyan;
+    text-decoration: none;
+}
+
+p {
+    font-size: 110%;
+    color: #9c9c9c;
+}
+
+span {
+    display: inline;
+    margin: 5%;
+    background-color: #9c9c9c;
+}

@@ -1,0 +1,114 @@
+body h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.primer-tipo h2 {
+    font-family: 'Aboreto', cursive;
+}
+
+.segundo-tipo h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.tercer-tipo h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#red {
+    color: #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 94, 0, 0.418)
+}
+
+#orange {
+    color: rgb(100%, 64.71%, 0%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(255, 166, 0, 0.582);
+}
+
+#yellow {
+    color: #ffff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 0, 0.308);
+}
+
+#green {
+    color: #008000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 128, 0, 0.589);
+}
+
+#blue {
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 255, 0.363);
+}
+
+#brown {
+    color: rgb( 165, 42, 42);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(165, 42, 42, 0.712);
+}
+
+#purple {
+    color: rgb( 128, 0, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(128, 0, 128, 0.616);
+}
+
+#olive {
+    color: rgb( 128, 128, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(128, 128, 0, 0.678);
+}
+
+#indigo {
+    color: rgb( 75, 0, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(76, 0, 130, 0.568);
+}
+
+#crimson {
+    color: rgb( 220, 20, 60);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(220, 20, 60, 0.541);
+}
+
+#coral {
+    color: hsl( 16, 100%, 65%);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 127, 80, 0.801);
+}
+
+#cyan {
+    color: hsl(180, 100%, 50%);
+    font-family: cursive;
+    background-color: rgba(0, 255, 255, 0.514);
+}
+
+#pink {
+    color: hsl(349, 100%, 87%);
+    font-family: fantasy;
+    background-color: rgba(255, 192, 203, 0.548);
+}
+
+#beige {
+    color: hsl(60, 55%, 91%);
+    font-family: serif;
+    background-color: rgba(245, 245, 220, 0.226);
+}
+
+#salmon { 
+    color: hsl(7, 94%, 72%);
+    font-family: monospace;
+    background-color: rgba(250, 128, 114, 0.616);
+}
+
+
+
+
+
+
+
+
+
