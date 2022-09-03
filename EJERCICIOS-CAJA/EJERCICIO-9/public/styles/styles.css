@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(240, 239, 239);
+}
+
+.contain-card {
+    background-color: white;
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 40px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: 40px;
+    margin: 20px;
+}
+
+.todos {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.hoy {
+    background-color: white;
+    border: none;
+    color: gray;
+}
+
+.mañana {
+    background-color: white;
+    border: none;
+    color: gray;
+}
+
+.eventos {
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px solid;
+    border-color: rgb(228, 228, 228);
+    padding: 50px;
+}
+
+.cancelado {
+    color: rgb(221, 103, 103);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fecha {
+    margin: 10px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(58, 58, 58);
+}
+
+p {
+    color: rgb(138, 138, 138);
+}
+
+* {
+    text-decoration: none;
+    color: rgb(104, 104, 247);
+    font-size: 18px;
+}
+
+.evento2 {
+    margin-left: 20px;
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px solid;
+    border-color: rgb(228, 228, 228);
+    padding: 50px;
+}
+
+.evento2 .fecha {
+    margin: -1px;
+}
+
+.evento3 {
+    margin-left: 20px;
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px solid;
+    border-color: rgb(228, 228, 228);
+    padding: 50px;
+}
+
+.evento3 .fecha {
+    margin: -1px;
+}
+

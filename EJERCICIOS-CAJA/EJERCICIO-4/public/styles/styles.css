@@ -1,0 +1,83 @@
+.progress {
+    margin: 30px;
+}
+
+.progress-bar1 {
+    background-color: lightgray;
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.progress-bar1 .progress-bar10 {
+    background-color: green;
+    height: 30px;
+    width: 10%;
+    border-radius: 100px;
+}
+
+.progress-bar2 {
+    background-color: lightgray;
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.progress-bar2 .progress-bar25 {
+    background-color: green;
+    height: 30px;
+    width: 25%;
+    border-radius: 100px;
+}
+
+.progress-bar3 {
+    background-color: rgb(221, 221, 221);
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.progress-bar3 .progress-bar50 {
+    background-color: green;
+    height: 30px;
+    width: 50%;
+    border-radius: 100px;
+}
+
+.progress-bar4 {
+    background-color: rgb(221, 221, 221);
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.progress-bar4 .progress-bar75 {
+    background-color: green;
+    height: 30px;
+    width: 75%;
+    border-radius: 100px;
+}
+
+.progress-bar5 {
+    background-color: lightgray;
+    width: 500px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.progress-bar5 .progress-bar90 {
+    background-color: green;
+    height: 30px;
+    width: 90%;
+    border-radius: 100px;
+}

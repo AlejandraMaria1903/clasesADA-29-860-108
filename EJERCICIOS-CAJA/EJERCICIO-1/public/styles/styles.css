@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+}
+
+.contain-card {
+    margin: 200px;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+}
+
+.contain-card .contain-bell i {
+    font-size: 3.5rem;
+    color: yellow;
+}
+
+.contain-card .contain-description .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.contain-card .contain-description .login a {
+    text-decoration: none;
+}
+
+.contain-card .contain-button button {
+    height: 2rem;
+    width: 40%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+}
+

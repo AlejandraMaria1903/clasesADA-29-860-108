@@ -1,0 +1,74 @@
+body {
+    background-color: #a5d6a7;
+}
+
+.contain-card {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin: 10rem;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 23px -8px rgba(0,0,0,0.75);
+}
+
+.contain-card .contain-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contain-card .contain-subtitle {
+    color: gray;
+}
+
+.contain-card .contain-fruits {
+    width: 70%;
+    margin: 0.5px;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contain-card .contain-fruits .apple {
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+    background: lightyellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -8px rgba(173, 173, 173, 0.75);
+}
+
+.contain-card .contain-fruits .banana {
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+    background: lightyellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -8px rgba(173, 173, 173, 0.75);
+}
+
+.contain-card .contain-fruits .peach {
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+    background: lightyellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -8px rgba(173, 173, 173, 0.75);  
+}
+
+.contain-card .contain-fruits .strawberry{
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+    background: lightyellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 23px -8px rgba(173, 173, 173, 0.75);  
+}

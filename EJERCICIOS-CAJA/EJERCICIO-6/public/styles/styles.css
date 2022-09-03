@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+.contain-card {
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.contain-card .button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 350px;
+    height: 50px;
+}
+
+.button1 {
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(88, 88, 248);
+}
+
+.button2 {
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(88, 88, 248);
+}
+
+.button3 {
+    background-color: rgb(103, 103, 252);
+    border: rgb(88, 88, 248);
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.other {
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(88, 88, 248);    
+}
+
+.continue {
+    background-color: rgb(103, 103, 252);
+    border: rgb(88, 88, 248);
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    height: 60px;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+.contain-card {
+    background-color: rgb(29, 29, 66);
+    height: 900px;
+    width: 600px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 11px 20px 28px 9px rgba(0,0,0,0.42);
+}
+
+.contain-card .contain-image {
+    background-color: rgb(243, 57, 88);
+    height: 300px;
+    width: 600px;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.contain-card .contain-image .image {
+    max-width: 200px;
+    max-height: 300px;
+    padding-left: 200px;
+    padding-top: 40px;    
+}
+
+.contain-card .contain-description .title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.contain-card .contain-description .contain-tags {
+    text-align: center;
+    font-size: 38px;
+}
+
+.contain-card .contain-description .contain-tags .tag {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: none;
+    border: 2px rgb(194, 58, 110) solid;
+    border-radius: 20px;
+    padding: 3px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.contain-card .contain-description .description-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contain-card .contain-description .description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 20px;    
+}
+
+.contain-card .contain-price .price-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contain-card .contain-price .price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.contain-card .contain-price .comprar-button {
+    background-color: rgb(194, 58, 110);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px;
+    margin: 10px 250px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
