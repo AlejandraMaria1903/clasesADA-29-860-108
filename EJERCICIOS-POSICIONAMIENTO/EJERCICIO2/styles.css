@@ -1,0 +1,162 @@
+.contain {
+    max-width:500px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+a[class|="caja"] {
+    position: relative;
+	display:inline-block;
+	width:100px;
+	height:100px;
+	margin:10px;
+	padding:10px;
+    background-color: rgb(196, 196, 196);
+}
+
+#position {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: -9px;
+    margin-top: -9%;
+}
+
+#position1 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: 79px;
+    margin-top: 29px;
+}
+
+#position2 {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: -15%;
+    margin-top: 50px;    
+}
+
+#position3 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: 80px;
+    margin-top: -120px;
+}
+
+#position4 {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 49px;
+    margin-top: 50px;
+}
+
+#position5 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: 79px;
+    margin-top: -120px;
+}
+
+#position6 {
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: -15%;
+    margin-top: 50px
+}
+
+#position7 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;    
+}
+
+#position8 {
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 49px;
+    margin-top: -10px;
+}
+
+#position9 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#position10 {
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 50px;
+    margin-top: 50px;
+}
+
+#position11 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: 30px;
+}
+
+#position12 {
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 20px;
+    margin-top: -10px;
+}  
+
+#position13 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: -10px;
+    margin-top: 30px;
+}
+
+#position14 {
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 20px;
+    margin-top: 50px;
+}
+
+#position15 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    translate: 15px;
+}
+
+#position16 {
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    translate: 20px;
+    margin-top: 20px;
+}
+
+#position17 {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    translate: 15px;
+    margin-top: 15px;
+}

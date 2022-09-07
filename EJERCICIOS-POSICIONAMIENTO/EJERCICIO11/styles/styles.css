@@ -1,0 +1,32 @@
+.contain-card {
+    width: 550px;
+    height: 350px;
+    background-image: url(../styles/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    background-color: rgba(219, 219, 219, 0.753);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+h2 {
+    margin: 45px;
+    padding-top: 37%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 45px;
+    margin-top: -35px;
+    color: rgba(250, 250, 250, 0.623);
+}

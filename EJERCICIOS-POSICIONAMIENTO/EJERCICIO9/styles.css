@@ -1,0 +1,38 @@
+i {
+    position: absolute;
+    display: block;
+    color: rgb(226, 225, 225); 
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 20px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin-left: 10%;
+    margin-top: 35px;
+    font-size: large;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(226, 225, 225);
+}
+
+button {
+    margin:20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: rgb(180, 180, 180);
+}
+
+.user {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+}

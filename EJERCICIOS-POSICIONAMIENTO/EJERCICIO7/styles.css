@@ -1,0 +1,21 @@
+body {
+    height: 200vh;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    display: inline-flex;
+    width: 100px;
+}
+

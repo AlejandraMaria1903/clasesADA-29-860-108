@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/388cefe0a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Validar formulario</title>
+</head>
+<body>
+    <form>
+        <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="firstName" name="firstName" placeholder="Nombre de usuario" required />
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <br>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" name="email" placeholder="E-mail" required />
+            <i class="fa-solid fa-check"></i>     
+        </div>
+        <br>
+        <div>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="password" name="password" minlength="6" maxlength="20" placeholder="Contraseña" required />
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <br>
+        <div>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" id="confirmPass" name="confirmPass" minlength="6" maxlength="20" placeholder="Repetir contraseña" required />
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <div>
+            <button>Crear usuario</button>
+        </div>
+    </form>
+</body>
+</html>
