@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+.contain-card {
+    background-color:rgb(243, 57, 88);
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 5%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+img {
+    margin-top: 86px;
+    max-width: 80%;    
+}
+
+.contain-description {
+    background-color: rgb(16, 16, 39);
+    margin-left: 20rem;
+    margin-top: -143.3%;
+    width: 180%;
+    height: 585px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+h1 {
+    display: flex;
+    padding: 40px;
+    color: white;
+    font-size: 255%;
+    width: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tags {
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -40px;
+    
+}
+.tag {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: none;
+    border: 1px rgb(194, 58, 110) solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.description-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 40px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 40px;
+    font-size: 20px;
+    width: 550px;
+    margin-top: -25px;
+}
+
+.price-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 40px;
+    margin-top: -15px;
+}
+
+button {
+    background-color: rgb(243, 57, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    margin: 40px;
+    margin-top: -40px;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 90px;
+
+}
