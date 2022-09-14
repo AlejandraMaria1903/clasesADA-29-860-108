@@ -62,15 +62,15 @@ p {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
     color:black;
-    margin-top: -70px;
+    margin-top: -55px;
     margin-left: -25%;
 }
 
 .description {
     width: 70%;
-    margin-left: -120px;
+    margin-left: -125px;
     color: gray;
     font-size: 13px;
     margin-bottom: 50px;
@@ -111,7 +111,11 @@ h2 {
     text-align: left;
 }
 
-@media (max-width: 850px) {
+section {
+    margin-top: -40px;
+}
+
+@media (max-width: 1000px) {
 
     .container {
         width: 350px;
@@ -124,8 +128,7 @@ h2 {
     .sub {
         flex-direction: column;
         height: 170px;
-        margin-top: 15px;
-        
+        margin-top: 20px;
     }
 
     h2, .subtitle {
@@ -138,7 +141,11 @@ h2 {
     }
 
     .logo, .logos {
-        margin-left: 12px;
+        margin-left: 50px;
         margin-top: auto;
+    }
+
+    .two {
+        padding-top: 30px;
     }
 }

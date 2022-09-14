@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.contain-card {
+    background-color:rgb(173, 45, 66);
+    width: 60%;
+    height: 580px;
+    margin-left: -180px;
+    margin-top: 25px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: 0 55px;
+}
+
+.contain-description {
+    background: rgb(16, 16, 39);
+    width: 500px;
+    height: 500px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    border-radius: 0px 20px 20px 0px;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 800;
+    line-height: 46px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tags {
+    font-size: 15px;
+}
+
+.tag {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(194, 58, 110) ;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+.description-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 12px;
+    margin-top: 50px;
+}
+ 
+.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 550px;
+    margin-top: px;
+}
+
+.price-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: rgb(243, 57, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    width: 200px;
+    height: 48px;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    border-radius: 20px;
+    padding: 0 24px;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .contain-card{
+        flex-direction: column;
+        width: 500px;
+        border-radius: 18px;
+        margin-left: 10px;
+    }
+    
+    img {
+        width: 250px;
+        margin: 35px auto;
+    }
+
+    .contain-description {
+        text-align: center;
+        width: 420px;
+        border-radius: 0px 0px 18px 18px;
+    }
+
+    .tags {
+        margin-top: 20px;
+    }
+
+    .description-title {
+        text-align: center;
+    }
+
+    .description {
+        width: 110%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    button {
+        margin: 0 auto;
+    }
+}

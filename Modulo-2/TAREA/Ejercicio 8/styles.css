@@ -2,7 +2,6 @@
     font-weight: bold;
     background-color: blue;
     width: 22%;
-    
 }
 
 #te {
@@ -13,7 +12,6 @@
 #tem {
     background-color:  cyan;
     width: 22%;
-
 }
 
 #tempe {
@@ -30,6 +28,7 @@
     background-color: lightcyan;
     width: 22%;
 }
+
 #temperat {
     background-color:  lightpink;
     width: 22%;
@@ -54,6 +53,5 @@
 #extrem {
     font-weight: bold;
     background-color:  red;
-    width: 22%;
-    
+    width: 22%;   
 }
