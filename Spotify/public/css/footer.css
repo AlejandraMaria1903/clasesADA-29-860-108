@@ -1,0 +1,168 @@
+footer {
+    width: 100%;
+    height: 60%;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8%;
+}
+
+footer section.contain-footer {
+    width: 100%;
+    height: 150px;
+}
+
+footer section.contain-footer img {
+    width: 40%;
+    height: 80%;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+footer section.contain-options {
+    margin: 15px;
+    color: white;
+    font-family: var(--base-font);
+    font-weight: bold;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+footer section.contain-options .options {
+    position: relative;
+    top: 10px;
+}
+
+footer section.contain-options .option {
+    position: relative;
+    top: 5%
+}
+
+footer section.contain-icons {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+footer section.contain-icons .icon {
+    margin: 0 7px;
+    width: 15%;
+    height: 20%;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section.contain-icons .icon i {
+    color: white;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+
+    footer {
+        height: 43%;
+        position: relative;
+        top: 15%;
+    }
+
+    footer section.contain-footer img {
+        width: 20%;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+
+    footer section.contain-options {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        left: -50px;
+    }
+
+    footer section.contain-icons {
+        width: 250px;
+        margin-top: 190px;
+    }
+} 
+
+@media (min-width: 1024px)  {
+
+    footer {
+        height: 35%;
+    }
+    
+    footer section.contain-footer img {
+        width: 20%;
+        height: 80%;
+    }
+
+    footer section.contain-options {
+        position: relative;
+        left: -100px;
+    }
+
+    footer section.contain-icons {
+       width: 50%;
+    }
+
+    footer section.contain-icons .icon {
+        height: 60px;
+        margin: 0 20px; 
+    }
+
+    footer section.contain-icons .icon i {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1440px) {
+    
+    footer {
+        height: 25%;
+    }
+
+    footer section.contain-footer img {
+        width: 15%;
+        height: 70%;
+        position: relative;
+        top: 10rem;
+    }
+   footer section.contain-options .opti {
+        position: relative;
+        top: 13%;
+        left: 15%;
+    }
+    footer section.contain-options .options {
+        position: relative;
+        top: 13%
+        
+    }
+
+    footer section.contain-options .option {
+        position: relative;
+        top: 13%;
+        left: -15%;
+    }
+
+    footer section.contain-icons {
+        width: 30%;
+        position: relative;
+        top: -55%;
+        left: 70%;
+    }
+}

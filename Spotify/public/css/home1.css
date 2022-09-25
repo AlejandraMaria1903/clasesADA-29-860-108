@@ -1,0 +1,118 @@
+section.home {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.home .contain-slogan {
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+
+section.home .contain-slogan h1 {
+    font-family: var(--base-font);
+    color: var(--green);
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    position: relative; 
+    top: -20%;
+}
+
+section.home .contain-slogan h2 {
+    font-family: var(--base-font);
+    color: var(--green);
+    width: 80%;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: relative; 
+    top: -28%;
+    left: 30px;
+}  
+
+section.home .contain-slogan .contain-button {
+    width: 95%;
+    height: 8%;
+    background-color: var(--green);
+    border-radius: 50px;
+    border: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -28%;
+    left: 10px;
+}
+
+section.home .contain-slogan .contain-button button  {
+    text-transform: uppercase;
+    font-family: var(--base-font);
+    background-color: var(--green);
+    color: var(--blue);
+    border: none;        
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+ 
+    section.home .contain-slogan h1 {
+        font-size: 6rem;
+    }
+
+    section.home .contain-slogan h2 {
+        width: 40%;
+        font-size: 15px;
+        position: relative;
+        left: 30%;
+    }
+
+    section.home .contain-slogan .contain-button {
+        width: 40%;
+        position: relative;
+        left: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    section.home .contain-slogan h1 {
+        font-size: 7rem;
+    }
+
+    section.home .contain-slogan h2 {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 250px;
+    }
+
+    section.home .contain-slogan .contain-button {
+        width: 35%;
+        position: relative;
+        left: 320px;
+    }
+}
+
+@media (min-width:1440px) {
+
+    section.home .contain-slogan h2 {
+        position: relative;
+        left: 24rem;
+    }
+
+    section.home .contain-slogan .contain-button {
+        width: 25%;
+        height: 60px;
+        position: relative;
+        left: 550px;
+    }
+}
