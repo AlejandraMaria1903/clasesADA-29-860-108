@@ -1,0 +1,5 @@
+let nombre = prompt('Ingrese el nombre de una Playlist')
+let canción1 = prompt('Ingrese tiítulo canción1')
+let canción2 = prompt('Ingrese tiítulo canción2')
+let canción3 = prompt('Ingrese tiítulo canción3')
+alert(`Se ha creado una playlist llamada: ${nombre} con las canciones: ${canción1}, ${canción2} y ${canción3}`)
